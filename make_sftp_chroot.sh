@@ -5,7 +5,7 @@ GROUPNAME=sftponly
 
 if test "`echo $1`" = ""
 then
-        echo "No username is given. Call this script like:  make_sftp_chrott.sh <username>"
+        echo "No username is given. Call this script like:  make_sftp_chroot.sh <username>"
         exit 1
 else
         NEW_USER=$1
@@ -14,7 +14,7 @@ fi
 
 if ! test "`whoami`" = "root"
 then
-        echo "You need to be root. Call this script like: sudo make_sftp_chrott.sh <username>"
+        echo "You need to be root. Call this script like: sudo make_sftp_chroot.sh <username>"
         exit 1
 fi
 
