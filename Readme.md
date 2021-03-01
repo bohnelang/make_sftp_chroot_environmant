@@ -11,3 +11,5 @@ The script changes:
    * Adding a new sub-directory sftp_home
 * /etc/ssh/sshd_config (Changing a the end of the file the sftp behaviour)
 * restart sshd if config is fine
+
+### Call this script as root ./make_sftp_chroot.sh <NEW_USER>
