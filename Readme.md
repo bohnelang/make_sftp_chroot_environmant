@@ -1,7 +1,7 @@
 # Secure environment for SFTP user. 
 
 ## User cannot login by ssh. 
-## Only upload files to a sub-directory  in the 'home' directory is possible. 
+## Only upload files by sftp to a sub-directory  in the 'home' directory is possible. 
 ## User cannot leave this home directory. This directory this a jail. 
 
 The script changes:
